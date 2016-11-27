@@ -1,0 +1,14 @@
+/*
+* Main
+-------------------------------------------------- */
+
+/* Header
+------------------------- */
+header h1 {
+  font-size: 1.6rem;
+}
+@include media-pc {
+  header h1 {
+    font-size: 2rem;
+  }
+}

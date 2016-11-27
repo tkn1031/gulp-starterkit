@@ -1,0 +1,30 @@
+//
+// Mixins
+// --------------------------------------------------
+
+// Clearfix
+// -------------------------
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// MediaQuery
+// -------------------------
+@mixin media-tab {
+  @media screen and (min-width: $screen-tab-min-width) {
+    @content
+  }
+};
+
+@mixin media-pc {
+  @media screen and (min-width: $screen-pc-min-width) {
+    @content
+  }
+};

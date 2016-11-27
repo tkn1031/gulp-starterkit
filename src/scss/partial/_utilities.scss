@@ -1,0 +1,17 @@
+/*
+* Utilities
+-------------------------------------------------- */
+
+.hidden-sp,
+.visible-pc {
+  display: none !important;
+}
+@include media-pc {
+  .hidden-sp,
+  .visible-pc {
+    display: block !important;
+  }
+  .hidden-pc {
+    display: none !important;
+  }
+}

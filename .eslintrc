@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true
+  },
+
+  // グローバル変数の指定
+  "globals": {
+    "jQuery": true
+  },
+
+  "extends": "eslint:recommended",
+
+  // ルールの追加、上書
+  // 0:"off", 1:"warn", 2:"error"
+  "rules": {
+    "no-console": 1, // コンソールを使用している
+    "no-alert": 1, // アラートを使用している
+    "quotes": [1, "single"], // シングルクオートを使用していない
+    "eqeqeq": 1, // 「===, !==」ではなく「==,!=」を使用している
+    "no-unused-vars": 1, // 宣言したが使用していない変数がある
+    "strict": [1, "global"] // グローバルスコープでstrict modeになっている
+  }
+}

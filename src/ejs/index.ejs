@@ -1,0 +1,11 @@
+<%- include('./partial/_header') -%>
+<main>
+<% if (pageData.pageid == 'works') { -%>
+<ul>
+<% pageData.workslist.forEach(function(value, key) { -%>
+<li><%= value %></li>
+<% }) -%>
+</ul>
+<% } -%>
+</main>
+<%- include('./partial/_footer') -%>

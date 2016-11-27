@@ -1,0 +1,21 @@
+[
+  {
+    "template": "./src/ejs/index.ejs",
+    "url": "index.html",
+    "pageid": "index",
+    "title": "Site name",
+    "description": "Site description",
+    "keywords": "keyword1,keyword2",
+    "pagetitle": "Index"
+  },
+  {
+    "template": "./src/ejs/index.ejs",
+    "url": "works/index.html",
+    "pageid": "works",
+    "title": "Works | Site name",
+    "description": "Works description",
+    "keywords": "keyword1,keyword2",
+    "pagetitle": "Works",
+    "workslist": ["work1", "work2", "work3"]
+  }
+]

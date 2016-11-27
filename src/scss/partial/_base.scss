@@ -1,0 +1,25 @@
+/*
+* Base Setting
+-------------------------------------------------- */
+
+html {
+  font-size: $font-size-root;
+}
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $text-color;
+}
+
+/* link
+------------------------- */
+a {
+  color: $link-color-default;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: $link-color-default;
+    text-decoration: underline;
+  }
+}
